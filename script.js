@@ -53,3 +53,28 @@ function contarCaracteres(str){
     return str.length
 }
 console.log(contarCaracteres(texto))
+
+//divisao
+
+let carro = {
+    marca: prompt("Digite a marca do carro");
+    modelo: prompt("Digite o modelo no carro");
+    ano:prompt("Digiteo ano do carro");
+    modelcar: function(){
+        console.log("O modelo do carro é" + this.modelo)
+    }
+}
+carro.modelcar()
+
+//divisao
+
+let nome = prompt("Digite seu nome");
+let mensagem = prompt("Olá");
+
+function mensagemPersonalizada(){
+    console.log(mensagem + nome)
+}
+mensagemPersonalizada()
+
+//divisao
+
