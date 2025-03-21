@@ -47,21 +47,21 @@ inverterTexto(texto);
 
 //divisao
 
-let texto = prompt("Digite uma palavra");
+let texto2 = prompt("Digite uma palavra");
 
 function contarCaracteres(str){
-    return str.length
+    return str.length;
 }
-console.log(contarCaracteres(texto))
+console.log(contarCaracteres(texto2));
 
 //divisao
 
 let carro = {
-    marca: prompt("Digite a marca do carro");
-    modelo: prompt("Digite o modelo no carro");
-    ano:prompt("Digiteo ano do carro");
+    marca: prompt("Digite a marca do carro"), 
+    modelo: prompt("Digite o modelo no carro"),
+    ano:prompt("Digiteo ano do carro"),
     modelcar: function(){
-        console.log("O modelo do carro é" + this.modelo)
+        console.log("O modelo do carro é" + this.modelo);
     }
 }
 carro.modelcar()
@@ -72,11 +72,12 @@ let nome = prompt("Digite seu nome");
 let mensagem = prompt("Olá");
 
 function mensagemPersonalizada(){
-    console.log(mensagem + nome)
+    console.log(mensagem + nome);
 }
-mensagemPersonalizada()
+mensagemPersonalizada();
 
 //divisao
+
 let nota1 = prompt("Digite a primeira nota");
 let nota2 = prompt("Digite a sugunda nota");
 let nota3 = prompt("Digite a terceira nota");
@@ -89,3 +90,19 @@ media()
 
 //divisao
 
+let contador2 = 1;
+
+while (contador2 >= 20) {
+    console.log(contador2);
+    contador2--;
+
+    if (x%3 ==0) {
+        console.log("É multiplo de 3")
+    }
+
+    else{
+        console.log("Não é multiplo de 3")
+    }
+}
+ 
+//divisao
