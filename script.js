@@ -122,3 +122,20 @@ function verificarPalindromo(x){
         console.log("Não é um palíndrmo")
     }
 }
+
+//divisao 
+
+let nu1 = prompt("Digite um número")
+
+function verificarSinal(){
+    if (nu1>0){
+        console.log("É positivo")
+    }
+    else if (nu1==0){
+        console.log("É zero")
+    }
+    else{
+        console.log("É negativo")
+    }
+}
+verificarSinal()
