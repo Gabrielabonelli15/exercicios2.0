@@ -37,11 +37,12 @@ while (contador >= 1) {
 }
 
 //divisao
+
+let texto = prompt("Digite uma palavra");
+
 function inverterTexto(texto) {
     console.log(texto.split('').reverse().join(''));
 }
-
-let texto = "icaro";
 
 inverterTexto(texto);
 
@@ -106,3 +107,18 @@ while (contador2 >= 20) {
 }
  
 //divisao
+
+let palavra = ("Digite uma palavra");
+
+verificarPalindromo(palavra);
+
+
+function verificarPalindromo(x){
+    y = x.split('').reverse().join('');
+    if (y=x){
+    console.log("É um palíndromo");
+    }
+    else{
+        console.log("Não é um palíndrmo")
+    }
+}
