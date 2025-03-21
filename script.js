@@ -77,3 +77,15 @@ function mensagemPersonalizada(){
 mensagemPersonalizada()
 
 //divisao
+let nota1 = prompt("Digite a primeira nota");
+let nota2 = prompt("Digite a sugunda nota");
+let nota3 = prompt("Digite a terceira nota");
+let media = (parseInt(nota1) + parseInt(nota2) + parseInt(nota3)) / 3;
+
+function media(){
+    console.log("A média desses notas são:" + media)
+}
+media()
+
+//divisao
+
