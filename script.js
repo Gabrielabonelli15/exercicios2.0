@@ -139,3 +139,121 @@ function verificarSinal(){
     }
 }
 verificarSinal()
+
+//divisao
+let temp = prompt("Digite a temperatura")
+function converterTemperatura(){
+    console.log((x*9/5)+parseInt(32));
+};
+converterTemperatura()
+
+//divisao
+
+let soma = 0; 
+
+while (let contador3  >= 100){ 
+soma += parseInt(contador3); contador3= 100; 
+}; 
+ contador3++; 
+console.log(soma);
+
+//divisao
+
+function substituirPalavra(str){
+	str.replace(‘azul’, ‘vermelho’);
+};
+substituirPalavra()
+
+//divisao
+
+let str = prompt(“Digite uma palavra”);
+
+function verificarTamanho(str){
+	console.log(“A palavra tem” + str.lenght + “caracteres”)
+}
+
+//divisao
+
+
+let frutas = [“banana”, “morango”, “tangerina”, “melancia”,”roma” ];
+console.log(frutas[2]);
+
+//divisao
+
+let nome = prompt(“Escreva seu nome”);
+let mensagem = prompt("Bem vindo(a)");
+
+function saudacao(){
+	console.log(nome + mensagem);
+}
+
+//divisao
+
+let nota1 = (“Digite a primeira nota”);
+
+function verificarAprovacao(){
+	if (nota>= 6) {
+	console.log(“Aprovado”)
+	}
+	else{
+	console.log(“Reprovado”)
+	}
+}
+
+//divisao
+
+for (let i = 0; i <= 30; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+//divisao
+
+function contarVogais(palavra) {
+    const vogais = "aeiouAEIOU";
+    let contador = 0;
+
+    for (let i = 0; i < palavra.length; i++) {
+        if (vogais.includes(palavra[i])) {
+            contador++;
+        }
+    }
+    return contador;
+}
+
+//divisao
+
+function somarArray(array) {
+    return array.reduce((acumulador, valor) => acumulador + valor, 0);
+}
+
+//divisao
+
+function dobrarNumero(numero) {
+    return numero * 2;
+}
+
+//divisao
+
+let i = 2;
+while (i <= 20) {
+    console.log(i);
+    i += 2;
+}
+
+//divisao
+
+function capitalizar(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+//divisao
+
+function anoBissexto(ano) {
+    if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
+        return true;
+    } else {
+        return false;
+    }
+}
